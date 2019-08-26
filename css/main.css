@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    margin: 0;
+}
+
+    /* Targeting a class in CSS - every element with the class of header will recieve these css rules */
+.header{
+    background-color: lawngreen;
+    overflow: hidden;
+}
+
+.headerLink {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+/* Target an Id in CSS - the element with the ID of homeLink will recieve those CSS rules */
+#aboutLink{
+    float: right;
+}
+#homeLink{
+    float: left;
+}
