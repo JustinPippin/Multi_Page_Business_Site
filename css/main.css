@@ -1,25 +1,40 @@
 body{
-    background-color: yellow;
+    background-color: lightgray;
     margin: 0;
+    text-align:center;
 }
 
     /* Targeting a class in CSS - every element with the class of header will recieve these css rules */
 .header{
-    background-color: lawngreen;
+    background-color: green;
     overflow: hidden;
+}
+
+.header a:hover {
+    background-color: lightgrey;
 }
 
 .headerLink {
     padding: 14px 16px;
     text-decoration: none;
     color: white;
-    font-size: 20px
+    font-size: 20px;
+
+    /*
+    Red: f * f = 15 * 15 = 255
+    Blue: f * f = 15 * 15 = 255
+    Green: f * f = 15 * 15 = 255
+
+    255, 255, 255
+    */
 }
 
 /* Target an Id in CSS - the element with the ID of homeLink will recieve those CSS rules */
+
+#homeLink{
+    float: left
+}
+
 #aboutLink{
     float: right;
-}
-#homeLink{
-    float: left;
 }
