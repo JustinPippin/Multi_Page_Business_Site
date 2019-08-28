@@ -1,12 +1,14 @@
+
 body{
     background-color: lightgray;
     margin: 0;
-    text-align:center;
+    font-family: cursive;
+
 }
 
     /* Targeting a class in CSS - every element with the class of header will recieve these css rules */
 .header{
-    background-color: green;
+    background-color: black;
     overflow: hidden;
 }
 

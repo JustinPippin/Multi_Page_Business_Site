@@ -1,5 +1,6 @@
 #businessName {
-text-align: center
+text-align: center;
+font-family: 'UnifrakturMaguntia', cursive;
 }
 
 #businessLogo {
@@ -10,4 +11,12 @@ text-align: center
 #businessDescription {
 text-align: center;
 margin: 20px;
+}
+
+.indexHeader {
+    font-family: cursive;
+}
+
+.indexImage {
+    border: 5px solid white;
 }
